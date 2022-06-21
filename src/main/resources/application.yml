@@ -1,0 +1,14 @@
+
+server:
+  port: 7899
+spring:
+  main:
+    allow-circular-references: true
+  application:
+    name: spring-seata
+  cloud:
+    nacos:
+      config:
+        enabled: false
+      discovery:
+        enabled: false
